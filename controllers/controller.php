@@ -14,10 +14,11 @@ class MvcController{
     #-----------------------------------------------
     public function enlacesPaginasController(){
 
-        $enlaces = $_GET["action"];
+        $enlacesController = $_GET["action"];
 
-        echo $enlaces;
-        
+        echo $enlacesController;
+
+        $respuesta = EnlacesPaginas::enlacesPaginasModel($enlacesController);
     }
 }
 
