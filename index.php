@@ -2,7 +2,7 @@
 
 require_once "controllers/controller.php";
 
-$mvc =new MvcController();
+$mvc = new MvcController();
 $mvc -> plantilla();
 
 

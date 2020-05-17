@@ -2,7 +2,7 @@
 
 class MvcController{
 
-    public function platilla(){
+    public function plantilla(){
 
         include "views/template.php";
     }
