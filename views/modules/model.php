@@ -3,9 +3,18 @@
 class EnlacesPaginas{
 
 
-    public function enlacesPaginasModel($enlaces){
+    public function enlacesPaginasModel($enlacesModel){
 
-        return $enlaces;
+        if($enlacesModel == "inicio" ||
+           $enlacesModel == "nosotros" ||
+           $enlacesModel == "servicios" ||
+           $enlacesModel == "contactenos"){
+
+            $module = "viewa/modules/".$enlacesModel.".php";
+
+        }
+
+        return $module;
 
     }
 
