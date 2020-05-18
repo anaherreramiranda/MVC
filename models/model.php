@@ -8,7 +8,7 @@ class EnlacesPaginas{
         if($enlacesModel == "inicio" ||
            $enlacesModel == "nosotros" ||
            $enlacesModel == "servicios" ||
-           $enlacesModel == "contactenos" ||){
+           $enlacesModel == "contactenos"){
 
             $module = "views/modules/".$enlacesModel.".php";
 
