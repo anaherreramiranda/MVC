@@ -17,7 +17,9 @@ class MvcController{
         $enlaces = $_GET["action"];
 
         echo $enlaces;
-        
+
+        $respuesta = EnlacesPaginas::enlacesPaginasModel();
+
     }
 }
 
